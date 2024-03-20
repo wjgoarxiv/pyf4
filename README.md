@@ -46,9 +46,9 @@ By calculating and analyzing the $F_4$ order parameter, we can gain insights int
     git clone https://github.com/wjgoarxiv/pyf4.git
     ```
     
-2. Open [`f4.ipynb`](./f4.ipynb) in your Jupyter environment.
-3. Place your **water molecule trajectory file** (in example, the [`prod_trjconv_SOL.gro`](./source_trj/prod_trjconv_SOL.gro) file was used) in the [`source_trj`](./source_trj) directory.
-4. Now, by running _**1. Execute this if the `.gro` file has not been segregated**_ part to segregate the trajectory GRO file into separated GRO files (per frame). Check the [`./segregated/`](./segregated) folder. There segregated `frame_*.gro` files are located.
+2. Open [`f4.ipynb`](f4.ipynb) in your Jupyter environment.
+3. Place your **water molecule trajectory file** (in example, the [`prod_trjconv_SOL.gro`](source_trj/prod_trjconv_SOL.gro) file was used) in the [`source_trj`](source_trj) directory.
+4. Now, by running _**1. Execute this if the `.gro` file has not been segregated**_ part to segregate the trajectory GRO file into separated GRO files (per frame). Check the [`./segregated/`](segregated) folder. There segregated `frame_*.gro` files are located.
 5. Run the _**2. Run and find F4 values per frame**_ part to calculate $F_4$ order parameter per frame. It looks like this:
     ```CSV
     1,0.16803680968136386
@@ -62,8 +62,8 @@ By calculating and analyzing the $F_4$ order parameter, we can gain insights int
     9,-0.3107745768183056
     ...
     ```
-6. Also, check the generated CSV file entitled [`frame_f4_values`](./frame_f4_values).
-7. Now, run _**3. Plot `F4 - frame` graph**_ part to generate plots. You can check [(1) raw plot](./f4_vs_frame_raw.png) and [(2) rolling average plot](./f4_vs_frame_rolling.png). It's highly recommended to use a rolling average plot for your research; since the raw data might export the outlier values outside the allowed $F_4$ values of _liquid water, ice, or hydrates_.
+6. Also, check the generated CSV file entitled [`frame_f4_values`](frame_f4_values).
+7. Now, run _**3. Plot `F4 - frame` graph**_ part to generate plots. You can check [(1) raw plot](f4_vs_frame_raw.png) and [(2) rolling average plot](f4_vs_frame_rolling.png). It's highly recommended to use a rolling average plot for your research; since the raw data might export the outlier values outside the allowed $F_4$ values of _liquid water, ice, or hydrates_.
 
 ## References
 
