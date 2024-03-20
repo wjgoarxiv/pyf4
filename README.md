@@ -1,5 +1,5 @@
 # pyf4
-::A Python script to calculate and visualize the F4 order parameter from GROMACS trajectory::
+::A Python script to calculate and visualize the $F_4$ order parameter from GROMACS trajectory::
 
 ----
 
